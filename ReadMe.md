@@ -38,7 +38,7 @@ The datasets listed here support **Challenge 2**, which focuses on the analysis 
   - Two HHN sensor boxes  
   - Reference data from the LUBW station (co-located during the same period)  
 - Important:
-  - Columns `NO`, `NO2`, `O3`, `CO` contain **uncalibrated raw sensor values**.  
+  - **!!! Warning!!!** Columns `NO`, `NO2`, `O3`, `CO` contain **!!! DO NOT USE or be Replace with Syntetic Data**.  
   - These readings must be converted or calibrated using the LUBW reference measurements.  
   - Raw values must not be interpreted as physical pollutant concentrations.
 
@@ -53,13 +53,11 @@ The datasets listed here support **Challenge 2**, which focuses on the analysis 
   - Comparing synthetic and real datasets  
   - Evaluating data quality and sensor performance  
 
-Participants should begin with the synthetic dataset to prototype workflows, then apply validated approaches to the HHN real-world dataset.
-
 ---
 
-## 5. Additional Reference Datasets (Optional)
+## 5. Additional Reference Datasets 
 
-Participants may extend their analysis using publicly available air-quality datasets, for example:
+It is **recommended** that Participants extend their analysis using publicly available air-quality datasets, for example:
 
 - OpenAQ Global Platform: https://openaq.org  
 - London Datastore Air Quality: https://data.london.gov.uk  
@@ -67,5 +65,4 @@ Participants may extend their analysis using publicly available air-quality data
 - EEA Air Quality Hub: https://www.eea.europa.eu/themes/air/air-quality  
 
 These sources can be used for benchmarking or external validation.
-
 ---
